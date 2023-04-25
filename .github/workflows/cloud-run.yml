@@ -1,4 +1,4 @@
-name: 
+name: image-stegonography
 
 on:
   push:
@@ -10,7 +10,7 @@ env:
   PROJECT_ID: ${{ secrets.CLOUD_RUN_PROJECT_NAME }}
   REGION: us-east1
   # project-name but it can be anything you want
-  REPO_NAME: nextjs-cloudrun
+  REPO_NAME: image-stegonography
 
 jobs:
   build-and-deploy:
